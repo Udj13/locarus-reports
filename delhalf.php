@@ -20,7 +20,7 @@ echo $e->getMessage();
 
 //if ($_GET['optimize']) mysql_query("OPTIMIZE TABLE DATA");
 
-if (@$_POST['pass']=='meebei') {
+if (@$_POST['pass']=='me') {
 	foreach($_POST['delhalf'] as $id => $limit) {
         if ($limit<1) continue;
 		$id = intval($id);
